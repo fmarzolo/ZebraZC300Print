@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Csv">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\Csv.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentFTP">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\FluentFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DotNet.PlatformAbstractions">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\Microsoft.DotNet.PlatformAbstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyModel">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\Microsoft.Extensions.DependencyModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windows.SDK.NET">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\Microsoft.Windows.SDK.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Neodynamic.SDK.BarcodeCore">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\Neodynamic.SDK.BarcodeCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SdkApi.Card.Core">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\SdkApi.Card.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SdkApi.Card.Desktop">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\SdkApi.Card.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="SdkApi.Card.Desktop.CommandLine">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\SdkApi.Card.Desktop.CommandLine.dll</HintPath>
+    </Reference>
+    <Reference Include="SdkApi.Core">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\SdkApi.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SdkApi.Desktop">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\SdkApi.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="SdkApi.Desktop.Usb">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\SdkApi.Desktop.Usb.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpSnmpLib">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\SharpSnmpLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Desktop.Common">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\SkiaSharp.Views.Desktop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="WinRT.Host.Shim">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\WinRT.Host.Shim.dll</HintPath>
+    </Reference>
+    <Reference Include="WinRT.Runtime">
+      <HintPath>D:\_canc\zebra lib\SDK_PC-.NET-Card_v3.01.332\LinkOS_SDK_PC-.NET-Card_v3.01.332\lib\WinRT.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
